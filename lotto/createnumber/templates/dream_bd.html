@@ -1,0 +1,144 @@
+{% load static %}
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>흉몽</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}"> -->
+    <script lang="text/script">
+        function bd1()
+        {
+            Swal.fire({
+                title: '이빨/손톱 꿈',
+                html: '이와 손톱은 안 좋은 꿈으로<br>풀이되는 경우가 많습니다.<br><br>이가 빠지거나 깨지는 꿈은<br>자신감이 떨어지고 있는 사람들이<br>자주 꿀 수 있으며<br>손톱이 색이 변하거나 빠지는 꿈은<br>근심거리가 생기거나<br>나의 실수로 인해<br>타인이 피해를 볼 수 있다는<br>징조일 수 있습니다.<br><br>물론 재물손실 또한 야기할 수 있기에<br>조심하는 것이 좋아요!<br><br>이런 꿈을 꿨다면<br>자신감을 가지도록<br>더욱 당당하게 행동하고<br>말조심을 할 수 있도록 하자구요!'
+            })
+        }
+
+        function bd2()
+        {
+            Swal.fire({
+                title: '벌레 꿈',
+                html: '벌레가 나오는 꿈은 일반적으로 좋지 못합니다.<br><br>건강상에 문제가 생길 수 있음을<br>암시하는 경우가 많고<br>금전적으로 좋지 못한 뜻을<br>내포할 수 있습니다.<br><br>특히 썩은 음식에 구더기를 보거나<br>벌레에 물리는 꿈이라면 더욱 좋지 못하니<br>빨리 잊고 훌훌 털어버리는 것이 상책!<br><br>하지만 반대로 집에 터질듯이<br>많은 벌레들이 있다면<br>오히려 좋은 뜻으로 해석될 수 있으니<br>이왕 벌레가 나왔다면 상상력을 발휘해<br>터질정도로 많이 만들어버리는 것도<br>나쁘지 않을지도..?'
+            })
+        }
+
+        function bd3()
+        {
+            Swal.fire({
+                title: '도망 꿈',
+                html: '꿈에서 도망가거나 쫒기는 꿈은<br>현실에서 누군가에게 압박을 받고있거나<br>현실에 불안감이 있을 수 있다는걸 뜻하며<br><br>앞으로의 일이 이로인해<br>좋지 않을 수 있음을 암시합니다.<br><br>더불어 떨어지거나 가라앉는 꿈도<br>정신적으로 힘든 경우가 많다고 하니<br>조금더 우리 자기 자신을 돌보는데<br>힘을 써보아요^^'
+            })
+        }
+
+        function bd4()
+        {
+            Swal.fire({
+                title: '동물 꿈',
+                html: '대부분의 동물 꿈은 길몽에 속하나<br>검은 소 또는 염소 관련된 꿈은<br>좋지 않은 기운을 내포한 경우도 있습니다.<br><br>검은소나 염소 꿈은 불길한<br>일들이 있을 수 있음을 암시합니다.<br>그러니 검은소나 염소가 나왔다고 한다면<br>몸 가짐을 조심히 하고 주의하도록 합시다!'
+            })
+        }
+
+        function bd5()
+        {
+            Swal.fire({
+                title: '싸움 꿈',
+                html: '싸우는 꿈 같은 경우<br>안좋게 풀이될 때가 많은 꿈 입니다.<br><br>누구와 싸웠는지가 중요하며<br>가족이나 지인들과는 싸우지 않는것이 좋습니다.<br><br>웬만하면 마찰없이 지나가는 것이 좋으며<br>싸움이 있다면 말리는 것이 좋습니다.<br><br>시비가 붙는다면 차라리 말싸움보다는<br>크게 치고 박고 싸우시는 것이<br>더 큰 불행을 피할 수 있으니 참고하세요!'
+            })
+        }
+
+        function bd6()
+        {
+            Swal.fire({
+                title: '귀신 꿈',
+                html: '귀신꿈은 건강과 스트레스와<br>관련된 것이 많습니다.<br><br>귀신에게 쫒겨다니거나 두려워 떨고 있다면<br>건강이나 집에 우환이 생길 수 있으며<br>귀신이 또렷하게 보였다면<br>스트레스가 몰려올 수 있음을 암시합니다.<br><br>귀신이 등장하여<br>나의 감정이 부정적이었다면<br>건강이 안좋아지거나<br>구설수에 오르는 등<br>억울하거나 우환 같은 것이<br>생길 수 있으니<br>꿈에 귀신이 보인다면 때려잡던가<br>쫒아내는 것이 좋으니<br>당당하게 맞서보자구요!'
+            })
+        }
+
+        function bd7()
+        {
+            Swal.fire({
+                title: '흉터/다침 꿈',
+                html: '흉터가 생기거나 다치는꿈은<br>실제로 다칠수도 있는 가능성을<br>가지는 꿈이 많습니다.<br><br>다치지 않더라도<br>난관이나 부정적인 상황들이<br>실제로 다가올 수 있으니<br>항시 몸가짐을 조심히 하는 것이 좋습니다.<br><br>하지만 다치거나 흉터가 생길 때<br>피를 많이 본다면<br>오히려 좋게 해석 가능하니<br>이왕 다치는 꿈을 꾸고 있다면<br>피를 많이 볼 수 있게 합시다!'
+            })
+        }
+
+        function bd8()
+        {
+            Swal.fire({
+                title: '음식 꿈',
+                html: '음식관련 꿈 중에는 탕에 관련된 꿈이<br>좋지 않은 기운을<br>담고 있는 경우가 많이 있습니다.<br><br>꿈 속에서 탕 종류의 음식을 먹었다면<br>위장이나 장에 질환이 생길 수 있고<br>배가 아플 수 있으니<br>꿈에서 깬다면 건강 관리에<br>유의해보는 것이 어떨까요?'
+            })
+        }
+
+        function bd9()
+        {
+            Swal.fire({
+                title: '나체/옷 꿈',
+                html: '꿈에서 나체나<br>어울리지 않는 옷을 입고 있는 등<br>수치스러운 꿈을 꾸었다면<br>현실에서 자신의 컴플렉스나<br>숨기고 싶은 비밀들이<br>알려질까봐 두려워하거나<br>혹은 그것이 현실에서<br>드러날지도 모른다는 것을 암시합니다.<br><br>허나 꿈에서 나체를<br>부끄러워하지 않는다거나<br>이상한 옷을 입은걸 즐긴다면<br>크게 문제될것이 없다고 풀이가 된다고 합니다.<br><br>그러니 우리 모든 순간에<br>당당하게 굴자구요!<br><br>그리하면 현실에서<br>안 풀일 일도 잘 풀릴지도..?'
+            })
+        }
+    </script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5fd0d221751b57df"></script>
+</head>
+<body>
+    <br>
+    <div class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h1 class="display-4" style="font-family: 'Jua', sans-serif;">흉몽</h1>
+            <br>
+            <p class="">
+                <strong>흉몽이라고 근심, 걱정 말고 좋게 좋게 생각하며<br>
+                훌훌 털고 더욱 힘차게 하루를 보내보세요^^</strong>
+            </p>
+        </div>
+        <br>
+        <div class="addthis_inline_share_toolbox_at8p text-center"></div>
+    </div>
+    <div>
+        <form action="." method="post" style="display: inline;" class="text-center">
+            {% csrf_token %}
+            <div>
+                <div class="dropdown" style="display: inline;">
+                    <select name="dr" class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <option value="nc">선택해주세요</option>
+                        <option value="gd">길몽</option>
+                        <option value="bd" selected>흉몽</option>
+                    </select>
+                </div>
+                <input type="submit" value="확인" class="btn btn-primary" style="display: inline;">
+            </div>
+        </form>
+        <br>
+        <div class="text-center">
+            <table style="display: inline;">
+                <tr>
+                    <td><img src="https://postfiles.pstatic.net/MjAyMDExMjZfNjkg/MDAxNjA2NDAyNDAxMTE2.qJn2S1uEPDdizNkMPSTqpm-2h72dQr5gH5lC-4Ch9IAg.mnfT_-KGAqTpyDiOD2iLcxd1IGchDapiMhMwjsbNHT8g.PNG.bxbumsoo/10.png?type=w773" class="card-img-top" style="cursor: pointer; width: 7rem;" onclick="bd1()"></td>
+                    <td><img src="https://postfiles.pstatic.net/MjAyMDExMjZfMTIg/MDAxNjA2NDAyNDAxMTIw.mXFJuLYV2yW5U3UvW6upmGSMn69cavEEqsdyjjno_Y4g.IHnOpnOg6Tn5wURuuLgp9UsOa6k18Hd-xpVlrspUgaMg.PNG.bxbumsoo/11.png?type=w773" class="card-img-top" style="cursor: pointer; width: 7rem;" onclick="bd2()"></td>
+                    <td><img src="https://postfiles.pstatic.net/MjAyMDExMjZfMTEz/MDAxNjA2NDAyNDAxMTIx.Hhxym5IS3UNInVI1YpTJkUQS4XnymuNhMGZJ6O7ombIg.2fGK3F2AsMRS7TE2WUbN0qL-9Av7y-SSzK4XPQTCMqUg.PNG.bxbumsoo/12.png?type=w773" class="card-img-top" style="cursor: pointer; width: 7rem;" onclick="bd3()"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://postfiles.pstatic.net/MjAyMDExMjZfMTcy/MDAxNjA2NDAyNDAxMjg5.q2BIIPWIsDs093fW7ExlaEW8UQpBgrE6uFEpj-69Ro8g.u_9nzFfgiUc2DQ67tNDSopA480kdDZOoUHIcp4bpAS4g.PNG.bxbumsoo/13.png?type=w773" class="card-img-top" style="cursor: pointer; width: 7rem;" onclick="bd4()"></td>
+                    <td><img src="https://postfiles.pstatic.net/MjAyMDExMjZfMTYw/MDAxNjA2NDAyNDAxMjk0.zBo35iJSbUibP-3RMxUsGQ1gavOfPAj-LLahdxSoEekg.7CR3xPc8AILN7lUYr5nPNm_nNFt16DfA0VgFHFUOMjsg.PNG.bxbumsoo/14.png?type=w773" class="card-img-top" style="cursor: pointer; width: 7rem;" onclick="bd5()"></td>
+                    <td><img src="https://postfiles.pstatic.net/MjAyMDExMjZfMjU0/MDAxNjA2NDAyNDAxMzAw.KwrtDSmYRuRlpl7D2P96ehZHeRKRQAA_WmbD4jO-oq4g.DAJy5ainILgDm6UhXKrKXWSFFyYYaH56A94B7F1ODLkg.PNG.bxbumsoo/15.png?type=w773" class="card-img-top" style="cursor: pointer; width: 7rem;" onclick="bd6()"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://postfiles.pstatic.net/MjAyMDExMjZfMjc2/MDAxNjA2NDAyNDAxMzA5.DjTYC2Rf_g_1-Y2wNO8Ax-ASeoAskIRa05AWCq_49o0g.btlyYwP5x4_bkckClgxUmpbqpJ-nF62ze4EBmr0FXMMg.PNG.bxbumsoo/16.png?type=w773" class="card-img-top" style="cursor: pointer; width: 7rem;" onclick="bd7()"></td>
+                    <td><img src="https://postfiles.pstatic.net/MjAyMDExMjZfMjI5/MDAxNjA2NDAyNDAxMzI4.EYs1pT8nS7oO_aUjMsWJz9P54z2I40RX9mEgy2ZsXF4g.uARKAE3oQ0OrOWuLhuK1MESmXATfbQy0O16YGEIdjSwg.PNG.bxbumsoo/17.png?type=w773" class="card-img-top" style="cursor: pointer; width: 7rem;" onclick="bd8()"></td>
+                    <td><img src="https://postfiles.pstatic.net/MjAyMDExMjZfMjE3/MDAxNjA2NDAyNDAxMzEx.Juu_7_UVqPsBmnyno9hu4_2smdapx2NHQGyhCPympaMg.Abz0ROMpQFc5i00BahJF-kEUKaV4WRBYdfRcO-qMzVog.PNG.bxbumsoo/18.png?type=w773" class="card-img-top" style="cursor: pointer; width: 7rem;" onclick="bd9()"></td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div class="drdr1 text-center">
+            <button class="btn btn-outline-primary" onclick="location.href='/'">홈으로</button>
+        </div>
+    </div>
+</body>
+</html>
